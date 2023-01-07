@@ -26,4 +26,4 @@ const stopBtn = document.querySelector("#stop");
 
 playBtn.addEventListener("click", help.play);
 pauseBtn.addEventListener("click", help.pause);
-stopBtn.addEventListener("click", help.stop);
+stopBtn.addEventListener("click", help.reset);
